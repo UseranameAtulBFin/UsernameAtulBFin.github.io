@@ -1,2 +1,43 @@
 .page-home {
+  .intro {
+    background: linear-gradient(135deg, $white-offset 0%, #dff0e8 100%);
+    border-bottom: 1px solid darken($white-offset, 6%);
+    h1 {
+      color: $primary;
+    }
+    p {
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+  }
+
+  .strip {
+    .service-title a {
+      color: $primary;
+      &:hover {
+        color: $primary-dark;
+        text-decoration: none;
+      }
+    }
+    .service-summary {
+      border-left: 3px solid $secondary;
+      padding-left: 16px;
+      transition: border-color 0.2s ease;
+      &:hover {
+        border-color: $primary;
+      }
+    }
+  }
+
+  .strip-grey {
+    .feature {
+      text-align: center;
+      .feature-title {
+        color: $primary;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    }
+  }
 }

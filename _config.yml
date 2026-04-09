@@ -1,6 +1,6 @@
 baseurl: ''
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'FinXP Services'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -34,6 +34,8 @@ defaults:
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
+  quiet_deps: true
+  silence_deprecations: [import, global-builtin, color-functions, if-function]
 
 plugins:
   - jekyll-environment-variables

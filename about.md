@@ -1,87 +1,44 @@
 ---
-title: About
+title: About Atul Bhatia
 layout: page
-description: About
+description: Meet Atul Bhatia, founder of FinXP Services — a dedicated mortgage broker helping Australians grow their property portfolios.
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+# About FinXP Services
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+FinXP Services Pty Ltd was founded on a simple belief: every Australian deserves clear, honest guidance when it comes to one of life's biggest financial decisions. Whether you're stepping onto the property ladder for the first time or expanding an existing portfolio, having the right broker in your corner makes all the difference.
 
-# Objectives
+## Meet Atul Bhatia
 
-Financial accounting and financial reporting are often used as synonyms.
+Atul Bhatia is a passionate and experienced mortgage broker with a genuine commitment to his clients' financial wellbeing. With deep knowledge of the Australian lending landscape and access to a wide panel of lenders, Atul takes the complexity out of home and investment loans — so you can focus on what matters.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+Atul's approach is personal. He takes the time to understand your goals, your circumstances, and your timeline before recommending any solution. No generic advice, no one-size-fits-all products — just tailored strategies built around you.
 
-## Relevance
+> "I got into mortgage broking because I wanted to help real people make smart financial decisions. There's nothing more rewarding than helping a family into their first home or watching a client's portfolio grow."
+> — Atul Bhatia
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+## What Sets FinXP Apart
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+### Access to 40+ Lenders
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+Rather than being tied to a single bank, Atul works with a broad panel of lenders — major banks, non-banks, and specialist lenders — to find the loan that truly fits your needs.
 
-## Faithful Representation
+### End-to-End Support
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+From your first conversation through to settlement and beyond, FinXP Services is with you every step of the way. Atul handles the paperwork, liaises with lenders, and keeps you informed throughout the process.
 
-## Enhancing Qualitative Characteristics
+### Portfolio Growth Focus
 
-### Verifiability
+Whether you're buying your first investment property or your fifth, Atul brings a strategic mindset to property finance. He helps clients structure their loans to maximise borrowing capacity and build long-term wealth.
 
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
+### Transparent and Honest Advice
 
-### Comparability
+You'll always know exactly what you're signing up for. Atul explains fees, rates, and loan structures in plain English — no jargon, no surprises.
 
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
+## Get in Touch
 
-### Understandability
+Ready to take the next step? Atul offers a free, no-obligation consultation to discuss your goals and explore your options.
 
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+- **Phone:** 0414 567 804
+- **Email:** atul@finx.com.au

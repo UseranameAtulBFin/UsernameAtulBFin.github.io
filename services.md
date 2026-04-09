@@ -1,12 +1,12 @@
 ---
-title: Services
+title: Our Services
 layout: services
-description: Services
+description: Mortgage broking and property finance services tailored to help you buy your first home, refinance, or grow your investment portfolio.
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Finance Solutions Built Around You
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+From first home buyers to seasoned investors, FinXP Services offers a full range of mortgage broking and property finance solutions. Atul works with you to find the right loan at the right rate — and structures it to support your long-term goals.

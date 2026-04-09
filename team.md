@@ -7,6 +7,6 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Meet Atul Bhatia
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+FinXP Services is built on personal relationships. When you work with us, you work directly with Atul — a dedicated mortgage broker who is with you every step of your property journey.

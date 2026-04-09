@@ -1,7 +1,7 @@
 [
   {
     "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "description": "Start with a free, no-obligation conversation about your goals. No pressure, just honest advice.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Access to 40+ Lenders",
+    "description": "Atul searches across a broad panel of banks, non-banks, and specialist lenders to find your best fit.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "End-to-End Support",
+    "description": "From pre-approval to settlement and beyond, we handle the process so you don't have to.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
