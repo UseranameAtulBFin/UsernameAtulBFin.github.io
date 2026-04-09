@@ -1,8 +1,11 @@
 .title {
   color: $black;
-  font-size: 48px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: $font-family-heading;
   line-height: 1.2;
+  margin-bottom: 10px;
   @include media-breakpoint-up(lg) {
-    font-size: 50px;
+    font-size: 40px;
   }
 }

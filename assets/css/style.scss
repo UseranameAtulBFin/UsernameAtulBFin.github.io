@@ -1,29 +1,29 @@
 
 
 // Colors
-$primary: #2e7d5e;
-$primary-dark: #1f5a43;
-$secondary: #b8d8c8;
-$black: #1a2e25;
+$primary: #2ea3f2;
+$primary-dark: #1a7fc4;
+$secondary: #f3f3f3;
+$black: #333333;
 $white: #ffffff;
-$white-offset: #f0f7f4;
-$steel: #5a7068;
+$white-offset: #f3f3f3;
+$steel: #666666;
 
 // Links
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: #3d9e78;
+$link-hover-color: $primary-dark;
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: 'Roboto', 'Open Sans', Arial, sans-serif;
+$font-family-heading: 'Poppins', Arial, sans-serif;
 
 // Footer
-$footer-background-color: $primary;
-$footer-text-color: $white;
-$sub-footer-background-color: $primary-dark;
-$sub-footer-text-color: $white;
+$footer-background-color: #222222;
+$footer-text-color: #cccccc;
+$sub-footer-background-color: #111111;
+$sub-footer-text-color: #999999;
 
 // Bootstrap 5.3.2
 
@@ -49,29 +49,6 @@ $sub-footer-text-color: $white;
 @import "bootstrap/grid";
 @import "bootstrap/tables";
 @import "bootstrap/forms";
-// @import "bootstrap/buttons";
-// @import "bootstrap/transitions";
-// @import "bootstrap/dropdown";
-// @import "bootstrap/button-group";
-// @import "bootstrap/nav";
-// @import "bootstrap/navbar";
-// @import "bootstrap/card";
-// @import "bootstrap/accordion";
-// @import "bootstrap/breadcrumb";
-// @import "bootstrap/pagination";
-// @import "bootstrap/badge";
-// @import "bootstrap/alert";
-// @import "bootstrap/progress";
-// @import "bootstrap/list-group";
-// @import "bootstrap/close";
-// @import "bootstrap/toasts";
-// @import "bootstrap/modal";
-// @import "bootstrap/tooltip";
-// @import "bootstrap/popover";
-// @import "bootstrap/carousel";
-// @import "bootstrap/spinners";
-// @import "bootstrap/offcanvas";
-// @import "bootstrap/placeholders";
 
 // 5. Include Bootstrap helpers and utilities
 @import "bootstrap/helpers";
@@ -107,11 +84,13 @@ $sub-footer-text-color: $white;
 @import "pages/page-service";
 
 body {
-  font-size: 16px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.7;
   font-family: $font-family-base;
+  color: $steel;
+  background-color: $white;
   @include media-breakpoint-up(md) {
-    font-size: 16px;
-    line-height: 1.3;
+    font-size: 14px;
+    line-height: 1.7;
   }
 }

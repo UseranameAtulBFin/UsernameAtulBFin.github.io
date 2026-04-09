@@ -9,25 +9,26 @@
     justify-content: flex-start;
     > li {
       list-style: none;
-      font-size: 1rem;
+      font-size: 13px;
       > a {
-        padding: 10px 12px 10px 12px;
+        padding: 10px 14px;
         display: inline-block;
-        font-weight: normal;
+        font-weight: 500;
+        font-family: $font-family-heading;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
         text-decoration: none;
-        color: $primary;
+        color: $black;
+        transition: color 0.2s ease;
         &:hover {
-          text-decoration: underline;
+          color: $primary;
+          text-decoration: none;
         }
       }
       &.active {
         > a {
-          font-weight: bold;
-          text-decoration: none;
-          &:hover {
-            text-decoration: none;
-            transition: all 225ms ease-in 0s;
-          }
+          color: $primary;
+          font-weight: 600;
         }
       }
     }
