@@ -1,42 +1,43 @@
 .page-home {
+  // Hero uses dark navy background — make call box text readable
   .intro {
-    background: $white;
-    border-bottom: 1px solid #e2e2e2;
-    h1 {
-      color: $black;
-    }
-    p {
-      font-size: 1rem;
-      line-height: 1.8;
-      color: $steel;
+    .call {
+      margin-top: 32px;
     }
   }
 
+  // Services strip — light gray background, bordered cards
   .strip {
+    background: $white-offset;
+    border-top: 1px solid #e2e2e2;
     border-bottom: 1px solid #e2e2e2;
+
     .service-title {
       font-family: $font-family-heading;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
       a {
-        color: $black;
+        color: #13425d;
         text-decoration: none;
-        transition: color 0.2s ease;
+        transition: color 0.3s ease;
         &:hover {
           color: $primary;
         }
       }
     }
+
     .service-summary {
-      padding: 20px;
-      border: 1px solid #e2e2e2;
-      border-radius: 3px;
+      padding: 24px;
       background: $white;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid $primary;
       height: 100%;
-      transition: box-shadow 0.2s ease, transform 0.2s ease;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
       &:hover {
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        transform: translateY(-2px);
+        box-shadow: 0 6px 24px rgba(19,66,93,0.1);
+        transform: translateY(-3px);
       }
       p {
         font-size: 0.88rem;
@@ -45,17 +46,41 @@
         margin-bottom: 0;
       }
     }
+
+    // Section heading above services grid
+    .row > .col-12 > h2 {
+      color: #13425d;
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 40px;
+    }
   }
 
+  // Features strip — white background
   .strip-grey {
-    background-color: $white-offset;
-    border-top: 1px solid #e2e2e2;
-    border-bottom: 1px solid #e2e2e2;
-    .feature-title {
-      color: $black;
-      font-family: $font-family-heading;
-      font-size: 0.95rem;
-      font-weight: 600;
+    background-color: #13425d;
+    border-top: none;
+    border-bottom: none;
+
+    .feature {
+      background: rgba(255,255,255,0.05);
+      border-color: rgba(255,255,255,0.12);
+      border-top-color: $primary;
+      &:hover {
+        box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+      }
+      .feature-title {
+        color: $white;
+      }
+      .feature-content {
+        color: rgba(255,255,255,0.75);
+      }
+      img {
+        filter: brightness(0) invert(1) opacity(0.9);
+      }
     }
   }
 }

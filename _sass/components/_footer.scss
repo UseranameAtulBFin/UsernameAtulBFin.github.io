@@ -1,71 +1,60 @@
 .footer {
-  background: $footer-background-color;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  background: #13425d;
+  padding-top: 50px;
+  padding-bottom: 50px;
   .footer-inner {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
     @include media-breakpoint-up(sm) {
-      justify-content: space-between;
       flex-direction: row;
       align-items: center;
     }
   }
   .footer-title {
     color: $white;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-family: $font-family-heading;
     font-weight: 600;
+    letter-spacing: 0.03em;
     margin-bottom: 4px;
-    letter-spacing: 0.02em;
   }
   .footer-tagline {
-    color: #999999;
-    font-size: 0.82rem;
+    color: rgba(255,255,255,0.55);
+    font-size: 0.8rem;
     margin: 0;
+    font-weight: 300;
   }
   ul {
     list-style: none;
-    margin: 0;
+    margin: 20px 0 0;
     padding: 0;
-    margin-top: 20px;
     @include media-breakpoint-up(sm) {
       margin-top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
     }
     li {
-      color: $footer-text-color;
-      font-size: 0.85rem;
       a {
-        color: #bbbbbb;
+        color: rgba(255,255,255,0.65);
         text-decoration: none;
-        padding: 8px 0;
+        padding: 6px 0;
         display: block;
         font-family: $font-family-heading;
         font-weight: 400;
         text-transform: uppercase;
-        letter-spacing: 0.06em;
+        letter-spacing: 0.07em;
         font-size: 12px;
-        transition: color 0.2s ease;
+        transition: color 0.25s ease;
         &:hover {
           color: $primary;
         }
       }
-    }
-    @include media-breakpoint-up(sm) {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      li {
-        margin-right: 20px;
-        &:last-of-type {
-          margin-right: 0;
-        }
-        a {
-          display: inline-block;
-          padding: 8px 0;
-        }
+      @include media-breakpoint-up(sm) {
+        margin-left: 24px;
+        a { display: inline-block; }
       }
     }
   }

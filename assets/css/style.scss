@@ -1,28 +1,28 @@
 
 
 // Colors
-$primary: #2ea3f2;
-$primary-dark: #1a7fc4;
-$secondary: #f3f3f3;
+$primary: #5ac6d0;
+$primary-dark: #13425d;
+$secondary: #2ea3f2;
 $black: #333333;
 $white: #ffffff;
-$white-offset: #f3f3f3;
+$white-offset: #f7f7f7;
 $steel: #666666;
 
 // Links
-$link-color: $primary;
+$link-color: $secondary;
 $link-decoration: none;
-$link-hover-color: $primary-dark;
+$link-hover-color: $primary;
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Roboto', 'Open Sans', Arial, sans-serif;
+$font-family-base: 'Poppins', 'Roboto', Arial, sans-serif;
 $font-family-heading: 'Poppins', Arial, sans-serif;
 
 // Footer
-$footer-background-color: #222222;
+$footer-background-color: #13425d;
 $footer-text-color: #cccccc;
-$sub-footer-background-color: #111111;
+$sub-footer-background-color: #0d2f43;
 $sub-footer-text-color: #999999;
 
 // Bootstrap 5.3.2
@@ -76,7 +76,7 @@ $sub-footer-text-color: #999999;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
-// @import "components/fonts"; // Uncomment this line to self host font
+// @import "components/fonts";
 
 // Pages
 @import "pages/page-home";
@@ -89,8 +89,4 @@ body {
   font-family: $font-family-base;
   color: $steel;
   background-color: $white;
-  @include media-breakpoint-up(md) {
-    font-size: 14px;
-    line-height: 1.7;
-  }
 }

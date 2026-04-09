@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:cprrealestate.com.au)",
+      "Bash(curl -s \"https://cprrealestate.com.au/\")"
+    ]
+  }
+}

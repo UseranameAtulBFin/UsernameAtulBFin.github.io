@@ -3,33 +3,44 @@
   display: inline-block;
   height: auto;
   line-height: 1.5;
-  padding: 0.4em 1.2em;
-  background: transparent;
+  padding: 0.5em 1.4em;
+  background: $primary;
   border: 2px solid $primary;
-  border-radius: 3px;
-  font-size: 14px;
+  border-radius: 0;
+  font-size: 13px;
   font-weight: 500;
   font-family: $font-family-heading;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: $primary;
+  color: $white;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
   &:hover {
+    background-color: $primary-dark;
+    border-color: $primary-dark;
     color: $white;
-    background-color: $primary;
     text-decoration: none;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(46, 163, 242, 0.3);
+    box-shadow: 0 4px 14px rgba(90, 198, 208, 0.35);
   }
 }
 .button-primary {
   background: $primary;
+  border-color: $primary;
   color: $white;
   &:hover {
     background-color: $primary-dark;
     border-color: $primary-dark;
     color: $white;
+  }
+}
+.button-outline {
+  background: transparent;
+  border: 2px solid $white;
+  color: $white;
+  &:hover {
+    background: $white;
+    color: $primary-dark;
   }
 }

@@ -11,25 +11,24 @@
       list-style: none;
       font-size: 13px;
       > a {
-        padding: 10px 14px;
+        padding: 8px 14px;
         display: inline-block;
         font-weight: 500;
         font-family: $font-family-heading;
         text-transform: uppercase;
-        letter-spacing: 0.06em;
+        letter-spacing: 0.07em;
         text-decoration: none;
         color: $black;
-        transition: color 0.2s ease;
+        transition: color 0.3s ease;
         &:hover {
           color: $primary;
           text-decoration: none;
+          opacity: 1;
         }
       }
-      &.active {
-        > a {
-          color: $primary;
-          font-weight: 600;
-        }
+      &.active > a {
+        color: $primary;
+        font-weight: 600;
       }
     }
   }

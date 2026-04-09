@@ -1,9 +1,9 @@
 .sub-footer {
-  background: $sub-footer-background-color;
+  background: #0d2f43;
   color: $sub-footer-text-color;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-top: 1px solid #2a2a2a;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid rgba(90,198,208,0.2);
   .sub-footer-inner {
     display: flex;
     flex-direction: column;
@@ -15,23 +15,17 @@
   }
   .copyright {
     font-size: 12px;
-    color: #777777;
+    color: rgba(255,255,255,0.4);
     margin-top: 6px;
-    @include media-breakpoint-up(md) {
-      margin-top: 0;
-    }
+    @include media-breakpoint-up(md) { margin-top: 0; }
     a {
       color: $primary;
       font-weight: 400;
       text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+      &:hover { text-decoration: underline; }
     }
   }
-  .social {
-    a:first-of-type {
-      margin-left: -10px;
-    }
+  .social a:first-of-type {
+    margin-left: -10px;
   }
 }
